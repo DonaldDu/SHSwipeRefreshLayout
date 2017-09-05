@@ -1,12 +1,23 @@
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/id_num"
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="54dp"
-    android:background="@drawable/white_bg_selector"
-    android:gravity="center_vertical"
-    android:padding="8dp"
-    android:text="Test"
-    android:textSize="18sp"></TextView>
+    android:layout_height="80dp"
+    android:minHeight="80dp"
+    android:orientation="horizontal">
 
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="#455445"
+        android:gravity="center"
+        android:text="4554654" />
+
+    <TextView
+        android:id="@+id/id_num"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="4554654" />
+</com.daimajia.swipe.SwipeLayout>
 
 

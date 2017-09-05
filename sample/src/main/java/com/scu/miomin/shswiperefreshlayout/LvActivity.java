@@ -41,7 +41,7 @@ public class LvActivity extends AppCompatActivity {
 
     private void initLv() {
         shLv = (SHListView) findViewById(R.id.shLv);
-        shLv.setAdapter(new SimpleLvAdapter(this,mDatas));
+        shLv.setAdapter(new SimpleLvAdapter(this, mDatas));
     }
 
     private void initSwipeRefreshLayout() {
